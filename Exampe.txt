@@ -1,0 +1,25 @@
+1) Посмотреть где я - pwd
+2) Создать папку - mkdir homeworkTerminal
+3) Зайти в папку - cd homeworkTerminal
+4) Создать 3 папки -  mkdir test 1 test 2 test 3
+5) Зайти в любоую папку - cd test 1
+6) Создать 5 файлов (3 txt, 2 json) - touch project1.txt project2.txt project3.txt script1.json script2.json
+7) Создать 3 папки - mkdir testFolder1 testFolder2 testFolder3
+8. Вывести список содержимого папки -  ls -la / ls -a
+9) + Открыть любой txt файл - vim project1.txt
+10) + написать туда что-нибудь, любой текст. - нажать "a" в терминальном редакторе и печатать 
+11) + сохранить и выйти -  ESC + :x + enter
+12) Выйти из папки на уровень выше - cd ..
+—
+13) переместить любые 2 файла, которые вы создали, в любую другую папку. - mv project2.txt project3.txt testFolder1/
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку. - cp project1.txt project2.txt ~/SharedUbuntu/homeworkTerminal/test1/
+15) Найти файл по имени - find ~/SharedUbuntu/homeworkTerminal/test1 -name script2.json (показывает полный путь к файлу) / find -name "script2.json" (не показывает полный путь к файлу, а только его находит) 
+16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает. -  grep -iw "some text" project1.txt
+17) вывести несколько первых строк из текстового файла - head -n 2 project2.txt
+18) вывести несколько последних строк из текстового файла - tail -n 2 project1.txt
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает. - less -N project1.txt
+20) вывести дату и время - date
+=========
+
+Задание *
+1)Отправить http запрос на сервер // curl https://api.quarantine.country/api/v1/regions
