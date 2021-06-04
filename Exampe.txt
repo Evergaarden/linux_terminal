@@ -1,4 +1,4 @@
-1) Посмотреть где я - <strong>pwd</strong>
+1) Посмотреть где я - pwd
 2) Создать папку - mkdir homeworkTerminal
 3) Зайти в папку - cd homeworkTerminal
 4) Создать 3 папки -  mkdir test 1 test 2 test 3
