@@ -1,1 +1,1 @@
-Used for pumping skills linux terminal command and bash scripts
+Used for up skills linux terminal command and bash scripts
