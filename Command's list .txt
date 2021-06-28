@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 This is a simple timestamp of working with the linux terminal
 
 1. pwd
@@ -48,4 +47,4 @@ This is a simple timestamp of working with the linux terminal
 =========
 
 curl -x https://api.quarantine.country/api/v1/regions
->>>>>>> 5e2cadb0cc4ac5bbb3a5f2e259269aea80520ce9
+
