@@ -21,4 +21,4 @@ This is a simple timestamp of working with the linux terminal
 
 =========
 
-curl https://api.quarantine.country/api/v1/regions
+curl -x https://api.quarantine.country/api/v1/regions
