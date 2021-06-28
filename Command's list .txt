@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a simple timestamp of working with the linux terminal
 
 1. pwd
@@ -22,3 +23,29 @@ This is a simple timestamp of working with the linux terminal
 =========
 
 curl -x https://api.quarantine.country/api/v1/regions
+=======
+This is a simple timestamp of working with the linux terminal
+
+1. pwd
+2. mkdir terminal_folder
+3. cd terminal_folder
+4. mkdir test 1 test 2 test 3
+5. cd test 1
+6. touch project1.txt project2.txt project3.txt script1.json script2.json
+7. mkdir test_folder1 test_folder2 test_folder3
+8. ls -la / ls -a
+9. vim project1.txt
+10. insert mode => added some text => ESC + :x + enter 
+11. cd ..
+12. mv project2.txt project3.txt test_folder1/
+13. cp project1.txt project2.txt ~/SharedUbuntu/terminal_folder/test1/
+14. find ~/SharedUbuntu/homeworkTerminal/test1 -name script2.json / find -name "script2.json" 
+15. grep -iw "some text" project1.txt
+16. head -n 2 project2.txt
+17. tail -n 2 project1.txt
+18. less -N project1.txt
+
+=========
+
+curl -x https://api.quarantine.country/api/v1/regions
+>>>>>>> 5e2cadb0cc4ac5bbb3a5f2e259269aea80520ce9
